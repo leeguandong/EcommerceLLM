@@ -1,0 +1,33 @@
+transformers==4.27.1
+ultralytics==8.0.120
+diffusers==0.19.3
+onnxruntime-gpu==1.14.1
+onnxruntime==1.14.1
+onnx==1.14.0
+pycuda==2019.1
+
+
+pymatting
+imagehash
+
+
+typer
+colorlog
+
+albumentations==0.5.2
+kornia==0.5.0
+webdataset
+easydict
+scikit-learn
+datasets==2.14.5
+
+pai-easycv
+pai-easynlp
+
+# chinese pai
+transformers ==4.32.1
+
+
+
+
+
