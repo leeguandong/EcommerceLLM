@@ -99,8 +99,10 @@ CUDA_VISIBLE_DEVICES=0 python ../../src/cli_demo.py \
   <summary>硬件资源</summary>
   <p>* 实验在V100 (4X, 32GB)上进行</p>
 </details>
+
 - （1）准备数据，并且写入到dataset_info.json中；
 - （2）开始训练：
+- 
 ```bash
 #!/bin/bash
  
