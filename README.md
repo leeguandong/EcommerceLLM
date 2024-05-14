@@ -3,36 +3,36 @@
 基于电商数据微调的Qwen1.5系列的电商大模型，包括0.5b-base，0.5b-chat，1.8b-base，7b-base，以及基于llama3-chinese-sft版本的基础模型的sft后电商大模型。
 
  <p align="center">
-      <a href='https://github.com/leeguandong/XrayQwenVL'>
+      <a href='https://github.com/leeguandong/EcommerceLLM'>
             <img src='https://img.shields.io/badge/Project-Page-Green'>
       </a>
-      <a href='https://github.com/leeguandong/XrayQwenVL'>
+      <a href='https://github.com/leeguandong/EcommerceLLM'>
             <img src='https://img.shields.io/badge/Paper-Arxiv-red'>
       </a>
       </br>
-      <a href="https://github.com/leeguandong/XrayQwenVL/graphs/contributors">
-        <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/leeguandong/XrayQwenVL" />
+      <a href="https://github.com/leeguandong/EcommerceLLM/graphs/contributors">
+        <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/leeguandong/EcommerceLLM" />
       </a>
-      <a href="https://github.com/leeguandong/XrayQwenVL/issues">
-        <img alt="Issues" src="https://img.shields.io/github/issues/leeguandong/XrayQwenVL?color=0088ff" />
+      <a href="https://github.com/leeguandong/EcommerceLLM/issues">
+        <img alt="Issues" src="https://img.shields.io/github/issues/leeguandong/EcommerceLLM?color=0088ff" />
       </a>
-      <a href="https://github.com/leeguandong/XrayQwenVL/pulls">
-        <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/leeguandong/XrayQwenVL?color=0088ff" />
+      <a href="https://github.com/leeguandong/EcommerceLLM/pulls">
+        <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/leeguandong/EcommerceLLM?color=0088ff" />
       </a>
-      <a href=href="https://github.com/leeguandong/XrayQwenVL/stargazers">
-        <img src="https://img.shields.io/github/stars/leeguandong/XrayQwenVL?color=ccf">
+      <a href=href="https://github.com/leeguandong/EcommerceLLM/stargazers">
+        <img src="https://img.shields.io/github/stars/leeguandong/EcommerceLLM?color=ccf">
       </a>
-      <a href=href="https://github.com/leeguandong/XrayQwenVL">
-        <img src="https://img.shields.io/github/repo-size/leeguandong/XrayQwenVL.svg?style=flat-square">
+      <a href=href="https://github.com/leeguandong/EcommerceLLM">
+        <img src="https://img.shields.io/github/repo-size/leeguandong/EcommerceLLM.svg?style=flat-square">
       </a>
       </br>
-      <a href=href="https://github.com/leeguandong/XrayQwenVL">
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=https://github.com/leeguandong/XrayQwenVL">
+      <a href=href="https://github.com/leeguandong/EcommerceLLM">
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=https://github.com/leeguandong/EcommerceLLM">
       </a>
-      <a href=href="https://github.com/leeguandong/XrayQwenVL">
-        <img src="https://img.shields.io/github/last-commit/leeguandong/XrayQwenVL">
+      <a href=href="https://github.com/leeguandong/EcommerceLLM">
+        <img src="https://img.shields.io/github/last-commit/leeguandong/EcommerceLLM">
       </a>
-      <a href="https://github.com/leeguandong/XrayQwenVL/blob/main/LICENSE">
+      <a href="https://github.com/leeguandong/EcommerceLLM/blob/main/LICENSE">
         <img alt="GitHub Contributors" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" />
       </a>
   </p>
