@@ -1,0 +1,215 @@
+{
+  "models": [
+    "Spark-X2.5-4B",
+    "Spark-X2.5-4B + ecommerce LoRA v1"
+  ],
+  "test_examples": 1014,
+  "decoding": "greedy; enable_thinking=false; same task-specific budgets",
+  "notes": [
+    "参考文本重合度不等于事实正确性或文案质量。",
+    "文案优劣需结合下方并排样例判断，未伪造主观胜率。"
+  ],
+  "scores": {
+    "base": {
+      "general": {
+        "n": 203,
+        "reference_char_f1": 0.2981864417993623,
+        "repeated_4gram_fraction": 0.09309611455778294,
+        "hit_max_tokens": 35,
+        "mean_generated_tokens": 451.4384236453202
+      },
+      "intent_recognition": {
+        "n": 86,
+        "reference_char_f1": 0.8123846437799926,
+        "repeated_4gram_fraction": 0.0003875968992248062,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 2.941860465116279,
+        "exact_set_accuracy": 0.7093023255813954,
+        "strict_format_rate": 0.9883720930232558,
+        "micro_precision": 0.9139784946236559,
+        "micro_recall": 0.7589285714285714,
+        "micro_f1": 0.8292682926829268,
+        "macro_f1": 0.8512320700289217
+      },
+      "livestreaming": {
+        "n": 119,
+        "reference_char_f1": 0.40609745411053,
+        "repeated_4gram_fraction": 0.030424570706767764,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 324.7563025210084
+      },
+      "long_title": {
+        "n": 6,
+        "reference_char_f1": 0.6875049216990508,
+        "repeated_4gram_fraction": 0.3041847643176077,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 118
+      },
+      "product_copywriting": {
+        "n": 78,
+        "reference_char_f1": 0.5266995589052549,
+        "repeated_4gram_fraction": 0.16516949443591722,
+        "hit_max_tokens": 5,
+        "mean_generated_tokens": 400.8333333333333
+      },
+      "product_extraction": {
+        "n": 105,
+        "reference_char_f1": 0.8016557628036945,
+        "repeated_4gram_fraction": 0.05436201358025562,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 36.95238095238095,
+        "exact_set_accuracy": 0.2,
+        "strict_format_rate": 1.0,
+        "micro_precision": 0.6646655231560892,
+        "micro_recall": 0.8816837315130831,
+        "micro_f1": 0.7579462102689487
+      },
+      "reading_comprehension": {
+        "n": 82,
+        "reference_char_f1": 0.5439031603401459,
+        "repeated_4gram_fraction": 0.015897387368402804,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 64.17073170731707
+      },
+      "scene_response": {
+        "n": 111,
+        "reference_char_f1": 0.2848439509609797,
+        "repeated_4gram_fraction": 0.1205303795428407,
+        "hit_max_tokens": 95,
+        "mean_generated_tokens": 734.8738738738739
+      },
+      "seo": {
+        "n": 68,
+        "reference_char_f1": 0.5440482756065995,
+        "repeated_4gram_fraction": 0.1056286876409826,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 475.6764705882353
+      },
+      "short_title": {
+        "n": 5,
+        "reference_char_f1": 0.7374068803148499,
+        "repeated_4gram_fraction": 0.29374395673182657,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 44.8
+      },
+      "tiktok": {
+        "n": 146,
+        "reference_char_f1": 0.17865001423173882,
+        "repeated_4gram_fraction": 0.1145905207675548,
+        "hit_max_tokens": 136,
+        "mean_generated_tokens": 1019.0616438356165
+      },
+      "xiaohongshu": {
+        "n": 5,
+        "reference_char_f1": 0.5109712980982107,
+        "repeated_4gram_fraction": 0.031111341348327406,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 292.6
+      }
+    },
+    "lora_v1": {
+      "general": {
+        "n": 203,
+        "reference_char_f1": 0.46776685510313654,
+        "repeated_4gram_fraction": 0.11666002969744337,
+        "hit_max_tokens": 5,
+        "mean_generated_tokens": 126.37931034482759
+      },
+      "intent_recognition": {
+        "n": 86,
+        "reference_char_f1": 0.9215116279069767,
+        "repeated_4gram_fraction": 0.0,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 2.3372093023255816,
+        "exact_set_accuracy": 0.9069767441860465,
+        "strict_format_rate": 1.0,
+        "micro_precision": 0.9130434782608695,
+        "micro_recall": 0.9375,
+        "micro_f1": 0.9251101321585903,
+        "macro_f1": 0.934235058625032
+      },
+      "livestreaming": {
+        "n": 119,
+        "reference_char_f1": 0.5926407052217302,
+        "repeated_4gram_fraction": 0.07408143375487891,
+        "hit_max_tokens": 1,
+        "mean_generated_tokens": 185.56302521008402
+      },
+      "long_title": {
+        "n": 6,
+        "reference_char_f1": 0.7658550942677782,
+        "repeated_4gram_fraction": 0.5548915322552338,
+        "hit_max_tokens": 2,
+        "mean_generated_tokens": 189.66666666666666
+      },
+      "product_copywriting": {
+        "n": 78,
+        "reference_char_f1": 0.6669041564720787,
+        "repeated_4gram_fraction": 0.24834203124155263,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 363.96153846153845
+      },
+      "product_extraction": {
+        "n": 105,
+        "reference_char_f1": 0.8343360862682203,
+        "repeated_4gram_fraction": 0.05418782513376498,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 39.80952380952381,
+        "exact_set_accuracy": 0.2,
+        "strict_format_rate": 1.0,
+        "micro_precision": 0.7882231404958677,
+        "micro_recall": 0.8680318543799772,
+        "micro_f1": 0.826204656199242
+      },
+      "reading_comprehension": {
+        "n": 82,
+        "reference_char_f1": 0.5704610770956127,
+        "repeated_4gram_fraction": 0.019578945181550494,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 60.390243902439025
+      },
+      "scene_response": {
+        "n": 111,
+        "reference_char_f1": 0.5836989509142916,
+        "repeated_4gram_fraction": 0.03689802066891961,
+        "hit_max_tokens": 1,
+        "mean_generated_tokens": 202.8918918918919
+      },
+      "seo": {
+        "n": 68,
+        "reference_char_f1": 0.660509685736392,
+        "repeated_4gram_fraction": 0.3568276224529093,
+        "hit_max_tokens": 1,
+        "mean_generated_tokens": 596.8529411764706
+      },
+      "short_title": {
+        "n": 5,
+        "reference_char_f1": 0.7421969914382742,
+        "repeated_4gram_fraction": 0.2234360410830999,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 37.6
+      },
+      "tiktok": {
+        "n": 146,
+        "reference_char_f1": 0.4649128530705134,
+        "repeated_4gram_fraction": 0.17349666448239998,
+        "hit_max_tokens": 1,
+        "mean_generated_tokens": 195.486301369863
+      },
+      "xiaohongshu": {
+        "n": 5,
+        "reference_char_f1": 0.6542801514748319,
+        "repeated_4gram_fraction": 0.19804763330769581,
+        "hit_max_tokens": 0,
+        "mean_generated_tokens": 365.2
+      }
+    }
+  },
+  "publication": {
+    "scope": "sanitized summary of the Spark-X2.5-4B LoRA v1 experiment",
+    "source_data_and_raw_predictions_included": false,
+    "model_weights_included": false,
+    "training_date": "2026-09-07",
+    "checkpoint": "checkpoint-600"
+  }
+}
