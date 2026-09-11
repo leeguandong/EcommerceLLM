@@ -178,3 +178,8 @@ deepspeed --num_gpus 4 ../../src/train_bash.py \
 
 此存储库遵循[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) ，请参阅许可条款。
 
+## Spark-X2.5-4B 微调评测（2026-09）
+
+新增一轮 Spark-X2.5-4B 的正式 LoRA 微调与固定测试集对比结果。意图识别集合完全匹配准确率由 70.93% 提升至 90.70%，商品抽取 Micro-F1 由 75.79% 提升至 82.62%；商品抽取召回率略降，部分文案重复增加，结论以测试集和指标口径为限。
+
+详细指标、脱敏示例与训练曲线见 [`evaluation/spark_x2_5_4b`](evaluation/spark_x2_5_4b/)。该目录不包含训练数据、完整预测、日志、模型权重或历史实验压缩包。
